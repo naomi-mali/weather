@@ -13,8 +13,9 @@ body {
 
 #heading {
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 200;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -24,13 +25,14 @@ body {
 
 /* --------- Location and search button */
 
-.location {
-margin: 10px;
-}
-
+form {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
 .location-input {
     padding: 10px;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
     border-radius: 5px;
     margin: 15px;
@@ -38,7 +40,7 @@ margin: 10px;
 }
 
 .fa-solid.fa-magnifying-glass {
- padding: 10px 20px;
+ padding: 10px 5px;
  font-weight: bold;
  font-size: 1.4em;
  
@@ -48,19 +50,23 @@ margin: 10px;
     color:hsl(240, 66%, 64%);
 }
 
-button[type="submit"] {
-    border: 2px solid;
-    border-radius: 5px;
-    background-color: white;
-   
-}
+input[type="search"] {
+    padding-right: 20px;
+  }
+
+  button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: rgb(255, 255, 255);
+  }
 
 /* --------- Weather content and background */
 
 .weather-content {
     padding: 10px;
-    width: 327px;
-    align-items: center;
     color:rgb(255, 255, 255);
     text-shadow: 
     -1px -1px 0 #000,  
@@ -79,10 +85,54 @@ button[type="submit"] {
 }
 
 .container {
-    width: 65%;
-    height: 350px; 
+    width: 75%;
+    height: 450px; 
     background-image: url('../images/cloud-sky.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
 }
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 5px 5px;
+}
+.temperature {
+    font-size: 2.5rem;
+}
+
+.humidity {
+    font-weight: bold;
+}
+
+.description {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+ .emoji-weather {
+    margin: 0;
+    font-size: 3rem;
+ }
+ .error {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin:0;
+ }
+
+ /* Media Query for tablets  */
+ @media (max-width: 320px) {
+    .location-input {
+     
+    }
+ }

@@ -15,17 +15,20 @@
 <body>
     <h1 id="heading">
         <img class="logo" src="assets/images/clear-sky.png" alt="logo">Weather </h1>
-        <div class="location">
+        <form class="location">
             <input type="text" class="location-input" placeholder="Enter your location">
             <button type="submit" ><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="container">
+        <div class="weather-content">
+            <h2 class="location-display"></h2>
+            <p class="temperature"></p>
+            <p class="humidity"></p>
+            <p class="description"></p>
+            <p class="emoji-weather"></p>
+            <p class="error"></p>
         </div>
-        <div class="weather-content container">
-            <h1 class="location-display">Manchester</h1>
-            <p class="temperature">19°C</p>
-            <p class="humidity">Humidity: 60%</p>
-            <p class="description">Cloudy</p>
-            <p class="emoji-weather">☀</p>
-        </div>
+    </div>
   <script src="assets/js/script.js"></script>  
 </body>
 </html>
