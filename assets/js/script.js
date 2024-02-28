@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             const weatherData = await getWeatherData(location);
             updateWeatherUI(weatherData);
-            updateBackground(weatherData);
+            updateBackground(weatherData.weather[0].main, weatherData.sys);
         } catch (err) {
             showError(err.message);
         }
@@ -71,66 +71,70 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    function updateBackground(weatherData) {
-        const sunrise = weatherData.sys.sunrise * 1000;
-        const sunset = weatherData.sys.sunset * 1000;
+    function updateBackground(weatherCondition, sysData) {
+        const sunrise = sysData.sunrise * 1000;
+        const sunset = sysData.sunset * 1000;
         const currentTime = new Date().getTime();
         const isDaytime = currentTime > sunrise && currentTime < sunset;
-    
-        let weatherCondition = '';
-    
-        // Determine the primary weather condition
-        if (weatherData.weather && weatherData.weather.length > 0) {
-            weatherCondition = weatherData.weather[0].main.toLowerCase();
-        }
-    
-        // Set background image based on weather condition and time of day
+
+        let backgroundImageUrl = '';
+
         if (isDaytime) {
-            switch (weatherCondition) {
+            switch (weatherCondition.toLowerCase()) {
                 case 'clear':
-                    body.style.backgroundImage = "url('assets/images/cloud-blue-sky.jpg')";
+                    backgroundImageUrl = "url('assets/images/cloud-blue-sky.jpg')";
                     break;
                 case 'clouds':
-                    body.style.backgroundImage = "url('assets/images/clouds2.jpg')";
+                    backgroundImageUrl = "url('assets/images/clouds2.jpg')";
                     break;
                 case 'rain':
-                    body.style.backgroundImage = "url('assets/images/rain.jpg')";
+                    backgroundImageUrl = "url('assets/images/rain-pouring.jpg')";
                     break;
-                case 'thunderstorm':
-                    body.style.backgroundImage = "url('assets/images/day-thunder.jpg')";
-                    break;
-                case 'snow':
-                    body.style.backgroundImage = "url('assets/images/snowing.jpg')";
-                    break;
+                    case 'thunderstorm':
+                        backgroundImageUrl = "url('assets/images/thunder.jpg')";
+                        break;
+                    case 'snow':
+                        backgroundImageUrl = "url('assets/images/snowing.jpg')";
+                        break;
+                    case 'mist':
+                        backgroundImageUrl = "url('assets/images/mist.jpg')";
+                        break;
+                    case 'drizzle':
+                        backgroundImageUrl = "url('assets/images/rain.jpg')";
+                        break;
                 default:
-                    body.style.backgroundImage = "url('assets/images/cloud-sky.jpg')";
+                    backgroundImageUrl = "url('assets/images/cloud-sky.jpg')";
                     break;
             }
         } else {
-            switch (weatherCondition) {
+            switch (weatherCondition.toLowerCase()) {
                 case 'clear':
-                    body.style.backgroundImage = "url('assets/images/night-sky.jpg')";
+                    backgroundImageUrl = "url('assets/images/night-sky.jpg')";
                     break;
                 case 'clouds':
-                    body.style.backgroundImage = "url('assets/images/night-clouds.jpg')";
+                    backgroundImageUrl = "url('assets/images/night-cloudy-sky.jpg')";
                     break;
                 case 'rain':
-                    body.style.backgroundImage = "url('assets/images/night-rain.jpg')";
+                    backgroundImageUrl = "url('assets/images/night-rain.jpg')";
                     break;
                 case 'thunderstorm':
-                    body.style.backgroundImage = "url('assets/images/night-thunderstorm.jpg')";
-                    break;
+                        backgroundImageUrl = "url('assets/images/night-thunder.jpg')";
+                        break;
                 case 'snow':
-                    body.style.backgroundImage = "url('assets/images/night-snow.jpg')";
-                    break;
+                        backgroundImageUrl = "url('assets/images/night-snowing.jpg')";
+                        break;
+                case 'mist':
+                        backgroundImageUrl = "url('assets/images/night-mist.jpg')";
+                        break;
                 default:
-                    body.style.backgroundImage = "url('assets/images/night-default.jpg')";
+                    backgroundImageUrl = "url('assets/images/night-sky-clear2.jpg')";
                     break;
             }
         }
+
+        
+        container.style.backgroundImage = backgroundImageUrl;
     }
-
-
 
     function showError(message) {
         container.style.display = 'block';
