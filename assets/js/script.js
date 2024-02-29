@@ -8,7 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const description = document.querySelector('.description');
     const emojiWeather = document.querySelector('.emoji-weather');
     const error = document.querySelector('.error');
-   
+    const body = document.body;
+
+    // Initialize Google Places Autocomplete
+    const autocomplete = new google.maps.places.Autocomplete(locationInput);
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
