@@ -42,12 +42,13 @@ form {
 .fa-solid.fa-magnifying-glass {
  padding: 10px 5px;
  font-weight: bold;
- font-size: 1.4em;
+ font-size: 1.6em;
+ color: black;
  
 }
 
 .fa-solid.fa-magnifying-glass:hover {
-    color:hsl(240, 66%, 64%);
+    color:hsl(240, 56%, 48%);
 }
 
 input[type="search"] {
@@ -85,7 +86,7 @@ input[type="search"] {
 }
 
 .container {
-    width: 50%;
+    width: 55%;
     height: 450px; 
     background-size: cover; 
     background-position: center; 
@@ -97,7 +98,7 @@ input[type="search"] {
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
