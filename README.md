@@ -1,39 +1,36 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Weather
 
-Welcome,
+The weather page is an application of science and technology to predict the conditions of the atmosphere for a given location and time. 
+My primary objective is to empower users with the tools they need to effectively plan their activities, stay informed about current weather conditions, and make informed decisions based on accurate and reliable weather predictions. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Am I Responsive_ (1)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/b8351c8b-5f61-43bf-85ba-d8dec2679fdb)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+##Demo
+Link to the live site here:[Weather](https://naomi-mali.github.io/weather/)
 
-## Codeanywhere Reminders
+----
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Table of contents
+- [User Experience (UX)]
+- [Target audience of the website]
+- [User stories]
+- [First time visitor goals]
+- [Returning visitor Goals]
+-[Design]
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## User Experience (UX)
+### Target audience of the website
+It can be used by anyone who is looking to find out about the weather. It can be used by anyone who has the mobile phone weather app. The people who mainly use this service are people who are booking holidays to check the weather in a different country. It is also used by anyone who wants to go on a fun day out or people who want to know exactly when to expect a change in the weather conditions.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## User Stories
+### First Time Visitor Goals
+* To quickly be able to check the weather conditions.
+* To deliver accurate current weather conditions and forecasts in a user-friendly interface, allowing our users to make decisions based on the weather conditions, whether it's planning outdoor activities, dressing appropriately, or preparing for severe weather events.
+#### Returning Visitor Goals
+*  To give accurate weather information and be accesibil to use, so the users trust our weather page and enjoy using it as is useful and easy to use. 
 
-`http_server`
+## Design
+### Colour Scheme
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!

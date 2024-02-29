@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const description = document.querySelector('.description');
     const emojiWeather = document.querySelector('.emoji-weather');
     const error = document.querySelector('.error');
-    const body = document.body;
+   
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
