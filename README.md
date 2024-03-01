@@ -158,6 +158,66 @@ I clicked on "Settings" and navigated to "Github pages"
 There I seted the source of Deploy from a branch and set the branch from none to main and clicked save.
 Then this link was deployed automatically: https://naomi-mali.github.io/weather/
 
+## Forking/Cloning
+To create a fork for this repository:
+
+Navigate to the url - https://naomi-mali.github.io/weather/
+In the top right corner, click on the Fork dropdown.
+Create a new fork
+Name the repository and/or give it a description - Click create fork.
+You have now created a fork of this repository!
+
+
+
+
 ## Testing
 
 ### W3C Validator
+* W3C Markup Validator were used to validate each code of the project to ensure there were no syntax errors:
+
+ ![Showing results for https___naomi-mali github io_weather_ - Nu Html Checker](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/b894cd48-1d9c-4793-85db-a7480ad3ff8b)
+
+A warning appears in the validator with a h2 element content missing, but that element context is added in JavaScript. And overall dosen't affect the functionality of the page or the appearance.
+
+### W3C CSS Validator
+* CSS - No syntax errors were found using Jigsaw css validator:
+
+![W3C CSS Validator results for https___naomi-mali github io_weather_ (CSS level 3 + SVG) (1)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/b3781f72-28d3-4132-a652-68546a8fa217)
+
+### JS
+* The test result from JSHint for the script.js:
+
+![JSHint, a JavaScript Code Quality Tool (1)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/69090b54-43a4-40e0-a014-4ed5e276e1c8)
+
+### Testing functionality
+A number of methods were used to fully test this website.
+
+* Two browsers were used:
+
+Firefox
+Google Chrome
+
+* Three devices were used:
+
+Desktop PC with three different resolution monitors.
+Huawei p30 phone.
+Samsung Galaxy Tab A Tablet.
+
+## Solved bugs 
+ Solved buggs :
+One of the bugs I would encounter often was the fact that the location was missing specification on where is located :
+-	“like if I write Plymouth, is that Plymouth in USA or UK ? “
+So I added autofilling on the input box to be more specific with the location.
+When tested initially I had some unused functions which remained since initial code was written and that was eliminated: constbody=document.body; 
+-	The background image was not responsive and visible on small devices so I had to adjust multiple time until the outcome was right.
+
+## Credits
+### Code used
+The Weather function is adapted from a Youtube video: https://www.youtube.com/watch?v=VaDUGPMjzOM
+A lot of the JavaScript informaion on how to use functions and add event listeners are from :
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods
+* https://www.w3schools.com/js/default.asp
+
+## Acknowledgements
+Spencer Barriball, My code institute Mentor who supports me on all my queries during my project.
+Tutor Assistance at Code institute when I had an issue with codeanywhere not running and when I had an issue trying to push my code to github.
