@@ -59,22 +59,23 @@ The below Google fonts have been used for this site.
 
 Each of the weather types have a different background image, these were downloaded from Unsplash, Pexels and Freepik which are  free stock image sites with high-quality photos. All the images are coordinated to the weather and they are changing in acord with the actual weather type or daytime of the loaction.
 
-![cloud-blue-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/c1617a27-a1e8-42d9-af45-dd007f08a00d)
-![clouds2](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/938ef501-e5b8-446c-9019-b181dad7c2df)
-![cloud-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/c8f37592-600c-479d-afb2-8cd7933373f2)
-![mist](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/b9910b66-b9b2-4edc-b6f2-e9bfff11a719)
-![night-cloudy-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/6143df0a-343f-4f84-8d32-4a29fff6501c)
-![night-mist](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/04fb90f5-22c2-4f99-96ed-68c2df846f01)
-![night-rain](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/b9c41d3c-ceb3-420c-ba23-3fe24dc4e1ac)
-![night-sky-clear2](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/119e4c27-2b85-461e-943f-f0eaa545df62)
-![night-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/0a0cae13-3712-44d7-82d5-bd84182e6c5a)
-![night-thunder](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/cd170f8a-8ed8-4552-8810-14c5f572047e)
-![night-snowing](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/8cb73a37-687e-4954-b249-eb7924b4abfa)
-![snowing](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/dd8b8b31-a550-4b2d-be6b-e6bdef7ff572)
-![rain-pouring](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/3b70800b-5814-4e22-a992-29dbd8d17134)
-![rain](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/bd0b4c3f-514d-47fd-9a67-f242ca62c67e)
-![thunder](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/8a31080a-5dd4-4323-b8f5-4d4cbe0e7502)
-![weather-girl](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/8537d03b-3cc3-4cb6-8c12-8276ba610987)
+![cloud-blue-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/248e6dfd-9778-4265-9197-0e87d7d1bed9)
+![clouds2](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/992c6add-782d-4beb-ac6e-79f0036e88d3)
+![cloud-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/e308e94a-ad48-443b-b332-02002d354c45)
+![mist](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/9f6567f9-044f-49c5-9630-28792d46e125)
+![night-cloudy-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/ba23f080-d328-4d86-8fd8-7984a472ef7b)
+![night-mist](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/9fd6ce98-6253-47ab-96cd-f375da8db871)
+![night-rain](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/40a15d90-7032-4533-9740-d85305a40e8c)
+![night-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/08c2e2f1-c09a-4586-91fc-39beba446de1)
+![night-sky-clear2](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/be1faf36-af70-47f1-88da-1531718347a7)
+![night-snowing](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/e86beed3-5e3e-4801-9869-28ee5a2ca12a)
+![night-thunder](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/6c76719d-6f50-4e39-8852-f709548967dd)
+![rain](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/bbb57254-89a2-4cd5-89b5-aa9e6d1c255f)
+![rain-pouring](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/7587c020-6f37-45b1-8ba4-51e7065f6e60)
+![snowing](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/24d8f9a4-432f-42df-8670-95bc7ea1ee50)
+![thunder](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/a64f59e0-1ad3-4621-86b6-e54c2a4f9a62)
+![weather-girl](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/6f504490-ccca-4489-9b58-0d2ec6c360d7)
+
 
 ### Icons
 
@@ -110,16 +111,16 @@ The input field has a geographic location API so that when you search a location
 * [Weather API](https://openweathermap.org/) 
 The Weather API allows you to access current weather data for any location on Earth. The weather data comes from different sources such as global and local weather models, satellites, radars and a vast network of weather stations. All the images are coordinated to the weather and daytime, and they are changing in accord with the actual weather type of the location.
 
-![Document (1)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/777a8d8d-1d12-45a8-bae6-62eee5134dd6)
-![Document (2)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/33e26987-4be5-4ba4-aea4-e1f8dccc933d)
-![Document (6)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/aa000a6f-36b5-46b4-a332-53e41ee59f27)
-![Document (9)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/72bbb409-f653-4cf3-b9ae-c47195d07858)
-![Document (11)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/87cdb66a-e4f2-4b9c-aca8-2f03648aed52)
-![Document](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/d3a0930c-ef41-47ec-ac6c-763f2ce9f4a9)
-![Weather (2)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/493615f4-1162-4f6d-bf4e-01463802d6b1)
-![Weather (4)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/11db9203-990c-483f-b156-adc26874962d)
-![Weather (5)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/ecdf1f62-f752-42de-897d-696f680dc54d)
-![Weather](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/b7308ed9-f5e0-4f56-aad5-e9f25e8f93b7)
+![Document (1)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/e402ba19-ef5a-4122-94c2-04993272270e)
+![Document (2)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/b6309d0d-ebb8-4086-b6d7-5262b3c3fa1c)
+![Document (6)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/4068212b-c41f-4502-b44a-c51894996c5d)
+![Document (9)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/60062436-0199-4b07-aab3-d903a0506f14)
+![Document (11)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/652e042d-1fcc-4f90-9687-a022b391696f)
+![Document](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/a58bae43-2c42-40ae-81a0-c171aa666c1e)
+![Weather (2)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/b5585e55-b8b0-497c-8503-43595fa858c6)
+![Weather (4)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/294cc259-8e01-45a8-83fc-84b2fa942574)
+![Weather (5)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/3ae06cef-a40f-4e43-9dcf-0715a8a8c13c)
+![Weather](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/e043aa2b-47c0-4182-82b3-c7b2183b12cb)
 
 * Future Implementations:
 Along with the prediction of current weather conditions, I would also want to offer important  weather forecasting app users with stunning maps which would allow the user to explore weather conditions in the past and the future.
