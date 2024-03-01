@@ -22,6 +22,23 @@ Link to the live site here: [Weather](https://naomi-mali.github.io/weather/)
 * [Imagery](#imagery)
 * [Icons](#icons)
 * [Feature](#general-features)
+* [API`s](#API`s)
+* [Technologies](#technologies)
+* [HTML, CSS and JAVASCRIPT](#html-css-and-javascript)
+* [Content](#content)
+* [Accessibility](#accessibility)
+* [Deployment](#deployment)
+* [Forking/Cloning](#forkingcloning)
+* [Testing](#testing)
+* [W3C Validator](#w3c-validator)
+* [W3C CSS Validator](#w3c-css-validator)
+* [JS](#js)
+* [Testing functionality](#testing-functionality)
+* [Solved bugs](#solved-bugs)
+* [Credits](#credits)
+* [Acknowledgements](#accessibility)
+
+
 
 ## User Experience (UX)
 ### Target audience of the website
@@ -98,7 +115,9 @@ The input field is easy to use, quick and accessible. The page only instruction 
 
 ![Weather (7)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/048cbf4f-842c-4fa1-a6ba-2f2d80e78453)
 
-* Search button ( magnifying glass) ![naomi-mali_weather](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/7f2b43fe-8810-494e-9804-95c42f057e71)
+* Search button ( magnifying glass) 
+
+![naomi-mali_weather](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/7f2b43fe-8810-494e-9804-95c42f057e71)
 
  The search buttons have a hover effect  when you move your mouse over the button turns blue. When you click the magnifying glass the page loads your search result if typed something (correct) if not a "Weather data not found" message will appear. The input field responds to enter as well, in the same way as clicked on the magnifying glass. 
 
@@ -206,18 +225,23 @@ Samsung Galaxy Tab A Tablet.
 ## Solved bugs 
  Solved buggs :
 One of the bugs I would encounter often was the fact that the location was missing specification on where is located :
+
 -	“like if I write Plymouth, is that Plymouth in USA or UK ? “
 So I added autofilling on the input box to be more specific with the location.
+
 When tested initially I had some unused functions which remained since initial code was written and that was eliminated: constbody=document.body; 
+
 -	The background image was not responsive and visible on small devices so I had to adjust multiple time until the outcome was right.
 
 ## Credits
 ### Code used
 The Weather function is adapted from a Youtube video: https://www.youtube.com/watch?v=VaDUGPMjzOM
+
 A lot of the JavaScript informaion on how to use functions and add event listeners are from :
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods
 * https://www.w3schools.com/js/default.asp
 
 ## Acknowledgements
 Spencer Barriball, My code institute Mentor who supports me on all my queries during my project.
+
 Tutor Assistance at Code institute when I had an issue with codeanywhere not running and when I had an issue trying to push my code to github.
