@@ -61,7 +61,6 @@ Each of the weather types have a different background image, these were download
 
 ![cloud-blue-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/248e6dfd-9778-4265-9197-0e87d7d1bed9)
 ![clouds2](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/992c6add-782d-4beb-ac6e-79f0036e88d3)
-![cloud-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/e308e94a-ad48-443b-b332-02002d354c45)
 ![mist](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/9f6567f9-044f-49c5-9630-28792d46e125)
 ![night-cloudy-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/ba23f080-d328-4d86-8fd8-7984a472ef7b)
 ![night-mist](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/9fd6ce98-6253-47ab-96cd-f375da8db871)
@@ -71,11 +70,11 @@ Each of the weather types have a different background image, these were download
 ![night-snowing](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/e86beed3-5e3e-4801-9869-28ee5a2ca12a)
 ![night-thunder](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/6c76719d-6f50-4e39-8852-f709548967dd)
 ![rain](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/bbb57254-89a2-4cd5-89b5-aa9e6d1c255f)
-![rain-pouring](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/7587c020-6f37-45b1-8ba4-51e7065f6e60)
 ![snowing](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/24d8f9a4-432f-42df-8670-95bc7ea1ee50)
 ![thunder](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/a64f59e0-1ad3-4621-86b6-e54c2a4f9a62)
 ![weather-girl](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/6f504490-ccca-4489-9b58-0d2ec6c360d7)
-
+![cloud-sky](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/d0808e8f-5b7f-4f50-9501-ddbb0151d9b3)
+![rain-pouring](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/fb586f0d-50af-43e0-9015-ffa09c101215)
 
 ### Icons
 
@@ -129,8 +128,9 @@ Along with the prediction of current weather conditions, I would also want to of
 
 ### HTML, CSS and JAVASCRIPT
 
-- GitHub for storing repository
-- Gitpod for code editing
+- GitHub for storing repository.
+- Gitpod for code editing.
+- Google Dev Tools were used for troubleshooting and testing media queries for multiple device viewports.
 
 ### Content
 
@@ -141,3 +141,22 @@ Along with the prediction of current weather conditions, I would also want to of
 - [Geographic API](https://console.cloud.google.com/home/dashboard?project=applied-oxygen-415923): so that the code will autocomplete a precise location.
 - [Logo](https://www.flaticon.com/free-icons/weather): to have a weather representing logo embedded into the heading.
 
+## Accessibility
+The website is accessible friendly by using:
+Sufficient color contrast throughout the site.
+The app is designed with accessibility in mind, providing clear visual cues and readable text.
+The accessibility was confirmed by running it through lighthouse in devtools.
+
+![screenshot_2024-02-29_at_18 53 36_720](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/9f62c9ed-0f7c-42db-8173-5c7494092a69)
+
+## Deployment
+The project was coded with gipod and then deployed on Github. That is how the deployment was done:
+
+I logged in at GitHub and navtigate to the repo of the project
+I clicked on "Settings" and navigated to "Github pages"
+There I seted the source of Deploy from a branch and set the branch from none to main and clicked save.
+Then this link was deployed automatically: https://naomi-mali.github.io/weather/
+
+## Testing
+
+### W3C Validator
