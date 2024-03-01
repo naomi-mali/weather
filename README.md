@@ -98,7 +98,8 @@ The input field is easy to use, quick and accessible. The page only instruction 
 
 ![Weather (7)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/048cbf4f-842c-4fa1-a6ba-2f2d80e78453)
 
-* Search button ( magnifying glass)
+* Search button ( magnifying glass) ![naomi-mali_weather](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/7f2b43fe-8810-494e-9804-95c42f057e71)
+
  The search buttons have a hover effect  when you move your mouse over the button turns blue. When you click the magnifying glass the page loads your search result if typed something (correct) if not a "Weather data not found" message will appear. The input field responds to enter as well, in the same way as clicked on the magnifying glass. 
 
  ### API`s 
