@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(0, 0%, 92%);
+    background-color: #f5f5f5;
     font-family: "Hind Siliguri", sans-serif;
     font-style: normal;
     color: #000000;
@@ -48,7 +48,7 @@ form {
 }
 
 .fa-solid.fa-magnifying-glass:hover {
-    color:hsl(240, 56%, 48%);
+    color:#3636bf;
 }
 
 input[type="search"] {
@@ -61,7 +61,7 @@ input[type="search"] {
     top: 50%;
     transform: translateY(-50%);
     border: none;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
   }
 
 /* --------- Weather content and background */
