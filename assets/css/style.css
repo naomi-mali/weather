@@ -179,7 +179,7 @@ footer > h3 {
     }
 
     .container {
-        width: 85%;
+        width: 90%;
         background-image: url('../images/weather-mobile.jpg');
     }
 
@@ -192,7 +192,7 @@ footer > h3 {
     }
 
     .container {
-        width: 68%;
+        width: 85%;
         height: 800px;
         background-image: url('../images/weather-tablet.jpg');
     }

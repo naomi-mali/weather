@@ -1,12 +1,12 @@
-#Weather
+# Weather
 
 The weather page is an application of science and technology to predict the conditions of the atmosphere for a given location and time. 
 My primary objective is to empower users with the tools they need to effectively plan their activities, stay informed about current weather conditions, and make informed decisions based on accurate and reliable weather predictions. 
 
 ![Am I Responsive_ (1)](https://github.com/naomi-mali/images-in-readme.md/assets/148251951/b8351c8b-5f61-43bf-85ba-d8dec2679fdb)
 
-##Demo
-Link to the live site here:[Weather](https://naomi-mali.github.io/weather/)
+## Demo
+Link to the live site here: [Weather](https://naomi-mali.github.io/weather/)
 
 ----
 
