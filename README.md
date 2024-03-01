@@ -11,13 +11,13 @@ Link to the live site here: [Weather](https://naomi-mali.github.io/weather/)
 ----
 
 ## Table of contents
-- [User Experience (UX)]
-- [Target audience of the website]
-- [User stories]
-- [First time visitor goals]
-- [Returning visitor Goals]
--[Design]
-
+* [User Experience (UX)]
+* [Target audience of the website]
+* [User stories]
+* [First time visitor goals]
+* [Returning visitor Goals]
+* [Design]
+* Color Scheme
 
 ## User Experience (UX)
 ### Target audience of the website
